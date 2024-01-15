@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Abstract
 {
+    //IMessageDAL
     public interface IMessageDAL : IRepositoryDAL<Message>
     {
     }
