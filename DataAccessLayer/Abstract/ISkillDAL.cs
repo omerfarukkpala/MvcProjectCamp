@@ -8,7 +8,6 @@ using System.Threading.Tasks;
 namespace DataAccessLayer.Abstract
 {
     //ISkillDAL
-
     public interface ISkillDAL : IRepositoryDAL<Skill>
     {
     }
