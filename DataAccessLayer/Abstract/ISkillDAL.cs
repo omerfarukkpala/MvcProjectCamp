@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Abstract
 {
-    //ISkillDAL
+    //ISkillDAL 
     public interface ISkillDAL : IRepositoryDAL<Skill>
     {
     }
