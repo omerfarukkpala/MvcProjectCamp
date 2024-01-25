@@ -10,5 +10,6 @@ namespace DataAccessLayer.Abstract
     //IWriterDAL
     public interface IWriterDAL : IRepositoryDAL<Writer>
     {
+
     }
 }
