@@ -51,6 +51,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Concrete\AboutManagerBL.cs" />
+    <Compile Include="Concrete\AdminManagerBL.cs" />
+    <Compile Include="Concrete\CategoryManagerBL.cs" />
+    <Compile Include="Concrete\ContactManagerBL.cs" />
+    <Compile Include="Concrete\ContentManagerBL.cs" />
+    <Compile Include="Concrete\HeadingManagerBL.cs" />
+    <Compile Include="Concrete\ImageFileManagerBL.cs" />
+    <Compile Include="Concrete\MessageManagerBL.cs" />
+    <Compile Include="Concrete\SkillManagerBL.cs" />
+    <Compile Include="Concrete\WriterLoginManagerBL.cs" />
+    <Compile Include="Concrete\WriterManagerBL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
