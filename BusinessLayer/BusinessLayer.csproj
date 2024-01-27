@@ -51,6 +51,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\IAboutServiceBL.cs" />
+    <Compile Include="Abstract\IAdminServiceBL.cs" />
+    <Compile Include="Abstract\ICategoryServiceBL.cs" />
+    <Compile Include="Abstract\IContactServiceBL.cs" />
+    <Compile Include="Abstract\IContentServiceBL.cs" />
+    <Compile Include="Abstract\IHeadingServiceBL.cs" />
+    <Compile Include="Abstract\IImageFileServiceBL.cs" />
+    <Compile Include="Abstract\IMessageServiceBL.cs" />
+    <Compile Include="Abstract\ISkillServiceBL.cs" />
+    <Compile Include="Abstract\IWriterLoginServiceBL.cs" />
+    <Compile Include="Abstract\IWriterServiceBL.cs" />
     <Compile Include="Concrete\AboutManagerBL.cs" />
     <Compile Include="Concrete\AdminManagerBL.cs" />
     <Compile Include="Concrete\CategoryManagerBL.cs" />

@@ -1,7 +1,9 @@
 ﻿using BusinessLayer.Concrete;
 using DataAccessLayer.Abstract;
+using EntityLayer.Concrete;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -29,5 +31,27 @@ namespace MvcProjectCamp.Controllers
         }
 
         [HttpPost]
+        public ActionResult AddCategory(Category p)
+        {
+            //cm.CategoryAddBL(p);
+
+            CategoryValidator categoryValidator = new CategoryValidator();
+
+            ValidationResult results = categoryValidator.Validate(p);
+            if (results.IsValid)
+            {
+                cm.CategoryAdd(p);
+                return RedirectToAction("GetCategoryList");
+            }
+            else
+            {
+                foreach (var item in results.Errors)
+                {
+                    ModelState.AddModelError(item.PropertyName, item.ErrorMessage);
+                }
+            }
+            return View();
+        }
+
     }
 }
