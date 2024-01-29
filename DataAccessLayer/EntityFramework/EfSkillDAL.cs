@@ -11,5 +11,6 @@ namespace DataAccessLayer.EntityFramework
 {
     public class EfSkillDAL : GenericRepositoryDAL<Skill>, ISkillDAL
     {
+
     }
 }
