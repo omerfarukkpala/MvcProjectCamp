@@ -63,6 +63,17 @@
     <Compile Include="Abstract\ISkillDAL.cs" />
     <Compile Include="Abstract\IWriterDAL.cs" />
     <Compile Include="Concrete\Context.cs" />
+    <Compile Include="Concrete\GenericRepositoryDAL.cs" />
+    <Compile Include="EntityFramework\EfAboutDAL.cs" />
+    <Compile Include="EntityFramework\EfAdminDAL.cs" />
+    <Compile Include="EntityFramework\EfCategoryDAL.cs" />
+    <Compile Include="EntityFramework\EfContactDAL.cs" />
+    <Compile Include="EntityFramework\EfContentDAL.cs" />
+    <Compile Include="EntityFramework\EfHeadingDAL.cs" />
+    <Compile Include="EntityFramework\EfImageFileDAL.cs" />
+    <Compile Include="EntityFramework\EfMessageDAL.cs" />
+    <Compile Include="EntityFramework\EfSkillDAL.cs" />
+    <Compile Include="EntityFramework\EfWriterDAL.cs" />
     <Compile Include="Migrations\202401121535403_mig1.cs" />
     <Compile Include="Migrations\202401121535403_mig1.designer.cs">
       <DependentUpon>202401121535403_mig1.cs</DependentUpon>
