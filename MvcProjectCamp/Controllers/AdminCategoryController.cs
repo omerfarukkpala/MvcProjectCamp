@@ -14,7 +14,8 @@ namespace MvcProjectCamp.Controllers
 
         public ActionResult Index()
         {
-            return View();
+            var categoryvalues = cm.GetList();
+            return View(categoryvalues);
         }
     }
 }
