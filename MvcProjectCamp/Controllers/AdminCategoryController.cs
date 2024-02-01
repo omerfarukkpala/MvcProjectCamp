@@ -17,7 +17,6 @@ namespace MvcProjectCamp.Controllers
             var categoryvalues = cm.GetList();
             return View(categoryvalues);
         }
-        [HttpGet]
 
     }
 }
