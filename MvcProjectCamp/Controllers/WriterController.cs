@@ -12,6 +12,8 @@ namespace MvcProjectCamp.Controllers
     public class WriterController : Controller
     {
         WriterManagerBL wm = new WriterManagerBL(new EfWriterDAL());
+        WriterValidator writerValidator = new WriterValidator();
+
         // GET: Writer
         public ActionResult Index()
         {
