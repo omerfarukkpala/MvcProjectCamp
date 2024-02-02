@@ -1,4 +1,7 @@
-﻿using System;
+﻿using BusinessLayer.Concrete;
+using BusinessLayer.ValidationRules;
+using DataAccessLayer.EntityFramework;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,6 +11,7 @@ namespace MvcProjectCamp.Controllers
 {
     public class WriterController : Controller
     {
+        WriterManagerBL wm = new WriterManagerBL(new EfWriterDAL());
         // GET: Writer
         public ActionResult Index()
         {
