@@ -17,7 +17,8 @@ namespace MvcProjectCamp.Controllers
         // GET: Writer
         public ActionResult Index()
         {
-            return View();
+            var WriterValues = wm.GetList();
+            return View(WriterValues);
         }
     }
 }
