@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Concrete
 {
+    //WriterManagerBL
     public class WriterManagerBL : IWriterServiceBL
     {
         IWriterDAL _writerDal; // DAL Katmanı
