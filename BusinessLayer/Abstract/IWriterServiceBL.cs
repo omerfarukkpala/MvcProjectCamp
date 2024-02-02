@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Abstract
 {
+    //IWriterServiceBL
     public interface IWriterServiceBL
     {
         List<Writer> GetList();
