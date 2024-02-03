@@ -49,5 +49,7 @@ namespace MvcProjectCamp.Controllers
             // hiçbir şey yoksa view döndür
             return View();
         }
+        [HttpGet]
+
     }
 }
