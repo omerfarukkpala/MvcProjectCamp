@@ -26,6 +26,7 @@ namespace MvcProjectCamp.Controllers
         {
             return View();
         }
+        [HttpPost]
 
     }
 }
