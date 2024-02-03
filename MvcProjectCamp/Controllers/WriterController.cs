@@ -29,7 +29,7 @@ namespace MvcProjectCamp.Controllers
             return View();
         }
         [HttpPost]
-        public ActionResult AddWriter(Writer p)
+        public ActionResult AddWriter(Writer p) //AddWriter
         {
             ValidationResult results = writerValidator.Validate(p);
             if (results.IsValid)
