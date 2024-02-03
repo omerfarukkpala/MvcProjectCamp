@@ -20,5 +20,12 @@ namespace MvcProjectCamp.Controllers
             var WriterValues = wm.GetList();
             return View(WriterValues);
         }
+
+        [HttpGet]
+        public ActionResult AddWriter()
+        {
+            return View();
+        }
+
     }
 }
