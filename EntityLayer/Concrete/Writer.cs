@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace EntityLayer.Concrete
 {
+    //Writer
     public class Writer
     {
         [Key]
