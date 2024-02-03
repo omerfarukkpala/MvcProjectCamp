@@ -10,6 +10,7 @@ namespace BusinessLayer.ValidationRules
 {
     public class WriterValidator : AbstractValidator<Writer>
     {
+        //WriterValidator
         public WriterValidator()
         {
             RuleFor(x => x.WriterName).NotEmpty().WithMessage("Yazar adını boş geçemezsiniz");
