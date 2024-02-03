@@ -1,6 +1,7 @@
 ﻿using BusinessLayer.Concrete;
 using BusinessLayer.ValidationRules;
 using DataAccessLayer.EntityFramework;
+using EntityLayer.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,6 +28,25 @@ namespace MvcProjectCamp.Controllers
             return View();
         }
         [HttpPost]
-
+        public ActionResult AddWriter(Writer p)
+        {
+            ValidationResult results = writerValidator.Validate(p);
+            if (results.IsValid)
+            {
+                // doğrulama çalışıyorsa ekle
+                wm.WriterAdd(p);
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                // hata varsa yakala
+                foreach (var item in results.Errors)
+                {
+                    ModelState.AddModelError(item.PropertyName, item.ErrorMessage);
+                }
+            }
+            // hiçbir şey yoksa view döndür
+            return View();
+        }
     }
 }
