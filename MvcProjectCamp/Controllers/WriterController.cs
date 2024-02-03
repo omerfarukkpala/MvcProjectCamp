@@ -57,5 +57,22 @@ namespace MvcProjectCamp.Controllers
         }
 
         [HttpPost]
+        public ActionResult EditWriter(Writer p)
+        {
+            ValidationResult results = writerValidator.Validate(p);
+            if (results.IsValid)
+            {
+                wm.WriterUpdate(p);
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                foreach (var item in results.Errors)
+                {
+                    ModelState.AddModelError(item.PropertyName, item.ErrorMessage);
+                }
+            }
+            return View();
+        }
     }
 }
