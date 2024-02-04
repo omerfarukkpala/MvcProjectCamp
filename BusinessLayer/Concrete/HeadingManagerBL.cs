@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Concrete
 {
+    //HeadingManagerBL
     public class HeadingManagerBL : IHeadingServiceBL
     {
         IHeadingDAL _headingDal;
