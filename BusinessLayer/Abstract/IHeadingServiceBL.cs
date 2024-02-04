@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Abstract
 {
+    //IHeadingServiceBL
     public interface IHeadingServiceBL
     {
         List<Heading> GetList();
