@@ -1,5 +1,6 @@
 ﻿using BusinessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
+using EntityLayer.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -44,6 +45,13 @@ namespace MvcProjectCamp.Controllers
             ViewBag.vlc = valuecategory;
             ViewBag.vlw = valuewriter;
             return View();
+        }
+        [HttpPost]
+        public ActionResult AddHeading(Heading p)
+        {
+            p.HeadingDate = DateTime.Parse(DateTime.Now.ToShortDateString());
+            hm.HeadingAdd(p);
+            return RedirectToAction("Index");
         }
     }
 }
