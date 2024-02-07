@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Abstract
 {
+    //IContactServiceBL
     public interface IContactServiceBL
     {
         List<Contact> GetList();
