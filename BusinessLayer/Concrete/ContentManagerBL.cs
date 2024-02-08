@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Concrete
 {
-    //ContentManagerBL    
+    //ContentManagerBL     
     public class ContentManagerBL : IContentServiceBL
     {
         IContentDAL _contentDal;
