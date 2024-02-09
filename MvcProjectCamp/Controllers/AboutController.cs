@@ -18,5 +18,11 @@ namespace MvcProjectCamp.Controllers
             var aboutvalues = abm.GetList();
             return View(aboutvalues);
         }
+
+        [HttpGet]
+        public ActionResult AddAbout()
+        {
+            return View();
+        }
     }
 }
