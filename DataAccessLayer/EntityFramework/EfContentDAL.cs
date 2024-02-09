@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.EntityFramework
 {
+    //EfContentDAL
     public class EfContentDAL : GenericRepositoryDAL<Content>, IContentDAL
     {
 
