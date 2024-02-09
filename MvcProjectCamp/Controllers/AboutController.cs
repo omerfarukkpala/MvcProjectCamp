@@ -1,5 +1,6 @@
 ﻿using BusinessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
+using EntityLayer.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,5 +25,12 @@ namespace MvcProjectCamp.Controllers
         {
             return View();
         }
+        [HttpPost]
+        public ActionResult AddAbout(About p)
+        {
+            abm.AboutAdd(p);
+            return RedirectToAction("Index");
+        }
+
     }
 }
