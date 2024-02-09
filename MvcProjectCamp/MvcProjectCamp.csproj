@@ -2598,6 +2598,7 @@
     <Content Include="Views\Heading\AddHeading.cshtml" />
     <Content Include="Views\Content\ContentByHeading.cshtml" />
     <Content Include="Views\Content\GetAllContent.cshtml" />
+    <Content Include="Views\Heading\EditHeading.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
