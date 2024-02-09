@@ -2603,11 +2603,11 @@
     <Content Include="Views\Heading\EditHeading.cshtml" />
     <Content Include="Views\About\Index.cshtml" />
     <Content Include="Views\About\AboutPartial.cshtml" />
+    <Content Include="Views\Contact\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\Contact\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />
