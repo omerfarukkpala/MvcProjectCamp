@@ -1,4 +1,7 @@
-﻿using System;
+﻿using BusinessLayer.Concrete;
+using BusinessLayer.ValidationRules;
+using DataAccessLayer.EntityFramework;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -9,9 +12,13 @@ namespace MvcProjectCamp.Controllers
     public class MessageController : Controller
     {
         // GET: Message
-        public ActionResult Index()
+        MessageManagerBL mm = new MessageManagerBL(new EfMessageDAL());
+        MessageValidator messagevalidator = new MessageValidator();
+        WriterManagerBL wm = new WriterManagerBL(new EfWriterDAL());
+        public ActionResult Inbox(string p)
         {
-            return View();
+            var messagelist = mm.GetListInbox(p);
+            return View(messagelist);
         }
     }
 }
