@@ -2,6 +2,7 @@
 using BusinessLayer.ValidationRules;
 using DataAccessLayer.EntityFramework;
 using System;
+using EntityLayer.Concrete;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -46,5 +47,31 @@ namespace MvcProjectCamp.Controllers
         }
 
         [HttpPost]
+        public ActionResult NewMessage(Message p)
+        {
+            ValidationResult results = messagevalidator.Validate(p);
+            if (results.IsValid)
+            {
+                p.MessageDate = DateTime.Parse(DateTime.Now.ToShortDateString());
+                mm.MessageAdd(p);
+                return RedirectToAction("SendBox");
+            }
+            else
+            {
+                foreach (var item in results.Errors)
+                {
+                    ModelState.AddModelError(item.PropertyName, item.ErrorMessage);
+                }
+            }
+            return View();
+        }
+        public ActionResult ReadMessage(string p)
+        {
+            //bool messageStatus = false;
+            //if (id == 1)
+            //	messageStatus = true;
+            var values = mm.GetListInbox(p);
+            return View(values);
+        }
     }
 }
