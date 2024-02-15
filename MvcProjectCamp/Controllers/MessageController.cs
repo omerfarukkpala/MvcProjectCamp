@@ -25,5 +25,12 @@ namespace MvcProjectCamp.Controllers
             var messagelist = mm.GetListSendbox(p);
             return View(messagelist);
         }
+        public ActionResult GetInBoxMessageDetails(int id)
+        {
+            var values = mm.GetByID(id);
+            values.MessageStatus = true;
+            mm.MessageUpdate(values);
+            return View(values);
+        }
     }
 }
