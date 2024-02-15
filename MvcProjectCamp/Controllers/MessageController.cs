@@ -3,6 +3,7 @@ using BusinessLayer.ValidationRules;
 using DataAccessLayer.EntityFramework;
 using System;
 using EntityLayer.Concrete;
+using FluentValidation.Results;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
