@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.ValidationRules
 {
+    //MessageValidator
     public class MessageValidator : AbstractValidator<Message>
     {
         public MessageValidator() 
