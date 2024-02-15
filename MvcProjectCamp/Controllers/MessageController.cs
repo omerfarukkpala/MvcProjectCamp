@@ -39,5 +39,12 @@ namespace MvcProjectCamp.Controllers
             mm.MessageUpdate(values);
             return View(values);
         }
+        [HttpGet]
+        public ActionResult NewMessage()
+        {
+            return View();
+        }
+
+        [HttpPost]
     }
 }
