@@ -2612,6 +2612,7 @@
     <Content Include="Views\Message\NewMessage.cshtml" />
     <Content Include="Views\Message\GetInBoxMessageDetails.cshtml" />
     <Content Include="Views\Message\GetSendBoxMessageDetails.cshtml" />
+    <Content Include="Views\Message\ReadMessage.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
