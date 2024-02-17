@@ -29,6 +29,15 @@ namespace MvcProjectCamp.Controllers
         {
             return PartialView();
         }
+        public PartialViewResult ContactPartialLeftMenu()
+        {
+            StaticModel model = new StaticModel();
+            //model.InboxCount = mm.GetListInbox().Count();
+            //model.SendboxCount = mm.GetListSendbox().Count();
+            model.ReadSendboxCount = mm.GetListInbox(true, "admin@gmail.com").Count();
+            model.UnreadableSendboxCount = mm.GetListInbox(false, "admin@gmail.com").Count();
+            return PartialView(model);
+        }
 
     }
 }
