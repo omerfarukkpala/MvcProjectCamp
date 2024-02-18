@@ -1,9 +1,14 @@
 ﻿using BusinessLayer.Concrete;
+using DataAccessLayer.Abstract;
+using DataAccessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
+using EntityLayer;
 using EntityLayer.Concrete;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Security;
