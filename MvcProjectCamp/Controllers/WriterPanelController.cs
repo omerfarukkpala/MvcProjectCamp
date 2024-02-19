@@ -1,5 +1,5 @@
 ﻿using BusinessLayer.Concrete;
-using BusinessLayer.ValidationRules;
+using DataAccessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
 using System;
@@ -7,6 +7,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using PagedList;
+using PagedList.Mvc;
+using System.Data.SqlTypes;
+using BusinessLayer.ValidationRules;
+using FluentValidation.Results;
 
 namespace MvcProjectCamp.Controllers
 {
