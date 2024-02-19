@@ -6,6 +6,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Security;
 
+//MvcProjectCamp.Roles
 namespace MvcProjectCamp.Roles
 {
     public class AdminRoleProvider : RoleProvider
