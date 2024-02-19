@@ -2634,11 +2634,11 @@
     <Content Include="Views\WriterPanelMessage\GetInBoxMessageDetails.cshtml" />
     <Content Include="Views\WriterPanelMessage\GetSendBoxMessageDetails.cshtml" />
     <Content Include="Views\WriterPanelMessage\NewMessage.cshtml" />
+    <Content Include="Views\WriterPanelContent\MyContent.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\WriterPanelContent\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />
