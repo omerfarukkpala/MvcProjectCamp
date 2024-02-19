@@ -2625,6 +2625,7 @@
     <Content Include="Views\WriterPanel\WriterProfile.cshtml" />
     <Content Include="Views\WriterPanel\MyHeading.cshtml" />
     <Content Include="Views\WriterPanel\NewHeading.cshtml" />
+    <Content Include="Views\WriterPanel\EditHeading.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
