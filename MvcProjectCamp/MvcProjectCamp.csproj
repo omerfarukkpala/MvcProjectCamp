@@ -2637,6 +2637,7 @@
     <Content Include="Views\WriterPanelContent\MyContent.cshtml" />
     <Content Include="Views\WriterPanelContent\AddContent.cshtml" />
     <Content Include="Views\Login\WriterLogin.cshtml" />
+    <Content Include="Views\WriterPanelContent\ToDoList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
