@@ -13,9 +13,15 @@ namespace MvcProjectCamp.Controllers
         // GET: Default
         HeadingManagerBL hm = new HeadingManagerBL(new EfHeadingDAL());
         ContentManagerBL cm = new ContentManagerBL(new EfContentDAL());
-        public ActionResult Index()
+        public ActionResult Headings()
         {
-            return View();
+            var headinglist = hm.GetList();
+            return View(headinglist);
+        }
+        public PartialViewResult Index(int id = 0)
+        {
+            var contentlist = cm.GetListByHeadingID(id);
+            return PartialView(contentlist);
         }
     }
 }
