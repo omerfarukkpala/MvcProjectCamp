@@ -6,3 +6,24 @@
 
 <h2>SweetAlert</h2>
 
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<br />
+<button class="btn btn-primary" id="btn1">Button1</button>
+<button class="btn btn-warning" id="btn2">Button2</button>
+<button class="btn btn-danger" id="btn3">Button3</button>
+<script>$('#btn1').click(function () {
+
+        swal("Merhaba MVC Proje Kampı");
+
+    });</script>
+<script>$('#btn2').click(function () {
+
+        swal("Mvc proje kampı", "Ders 96", "success");
+
+    });</script>
+<script>$('#btn3').click(function () {
+
+        swal("Test", "...and here's the text!");
+
+    });</script>
