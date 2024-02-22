@@ -25,7 +25,7 @@ namespace MvcProjectCamp.Controllers
         WriterValidator writerValidator = new WriterValidator();
         Context c = new Context();
 
-        [HttpPost]
+        
         public ActionResult WriterProfile(Writer p)
         {
             ValidationResult results = writerValidator.Validate(p);
