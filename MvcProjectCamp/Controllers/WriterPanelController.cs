@@ -33,7 +33,7 @@ namespace MvcProjectCamp.Controllers
             var writervalue = wm.GetByID(id);
             return View(writervalue);
         }
-
+        [HttpPost]
         public ActionResult WriterProfile(Writer p)
         {
             ValidationResult results = writerValidator.Validate(p);
