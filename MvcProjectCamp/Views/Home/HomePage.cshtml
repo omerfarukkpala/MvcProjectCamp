@@ -20,13 +20,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8" />
     <meta name="keywords" content="Recognize Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-    <script>addEventListener("load", function() {
+    <script>
+        addEventListener("load", function() {
             setTimeout(hideURLbar, 0);
         }, false);
 
         function hideURLbar() {
             window.scrollTo(0, 1);
-        }</script>
+        }
+
+    </script>
     <!-- //Meta tag Keywords -->
     <!-- Custom-Files -->
     <link rel="stylesheet" href="~/AdminLTE-3.0.4/web/css/bootstrap.css">
@@ -92,7 +95,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <a href="/Default/Headings/1">Sözlük</a>
                     </li>
                     <li class="login">
-                        <a href="/Login/WriterLogin/" class="btn btn-info">Giriş Yap</a>
+                        <a href="/Login/WriterLogin/" class="btn btn-info">Giriş Yap</a>                        
                     </li>
                 </ul>
             </div>
@@ -283,6 +286,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         </div>
     </section>
     <!-- //services -->
+
     <!-- //experience -->
     <!--gallery  -->
     <section class="gallery py-md-5 py-3" id="projects">
@@ -750,12 +754,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <script src="~/AdminLTE-3.0.4/web/js/jquery-2.2.3.min.js"></script>
     <!-- banner-type-text -->
     <script src='~/AdminLTE-3.0.4/web/js/aos.js'></script>
-    <script>AOS.init({
+    <script>
+        AOS.init({
             easing: 'ease-out-back',
             duration: 1000
-        });</script>
+        });
+
+    </script>
     <!-- sticky nav bar-->
-    <script>$(() => {
+    <script>
+        $(() => {
 
             //On Scroll Functionality
             $(window).scroll(() => {
@@ -790,12 +798,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 });
             });
 
-        });</script>
+        });
+
+    </script>
     <!-- //sticky nav bar -->
     <!-- Include jQuery Timeline Plugin -->
     <script src="~/AdminLTE-3.0.4/web/js/jquery.roadmap.js"></script>
 
-    <script>$(document).ready(function() {
+    <script>
+        $(document).ready(function() {
 
             var events = [{
                     date: 'Oct 2018 - Present',
@@ -855,28 +866,40 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 prevArrow: '<i class="fas fa-chevron-left"></i>',
                 nextArrow: '<i class="fas fa-chevron-right"></i>'
             });
-        });</script>
+        });
+
+    </script>
     <!-- simpleLightbox -->
     <script src="~/AdminLTE-3.0.4/web/js/simpleLightbox.js"></script>
-    <script>$('.proj_gallery_grid a').simpleLightbox();</script>
+    <script>
+        $('.proj_gallery_grid a').simpleLightbox();
+
+    </script>
     <!-- //simpleLightbox -->
     <!-- stats -->
     <script src="~/AdminLTE-3.0.4/web/js/jquery.waypoints.min.js"></script>
     <script src="~/AdminLTE-3.0.4/web/js/jquery.countup.js"></script>
-    <script>$('.counter').countUp();</script>
+    <script>
+        $('.counter').countUp();
+
+    </script>
     <!-- //stats -->
     <!--/ start-smoth-scrolling -->
     <script src="~/AdminLTE-3.0.4/web/js/move-top.js"></script>
     <script src="~/AdminLTE-3.0.4/web/js/easing.js"></script>
-    <script>jQuery(document).ready(function($) {
+    <script>
+        jQuery(document).ready(function($) {
             $(".scroll").click(function(event) {
                 event.preventDefault();
                 $('html,body').animate({
                     scrollTop: $(this.hash).offset().top
                 }, 900);
             });
-        });</script>
-    <script>$(document).ready(function() {
+        });
+
+    </script>
+    <script>
+        $(document).ready(function() {
             /*
             						var defaults = {
             							  containerID: 'toTop', // fading element id
@@ -890,7 +913,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 easingType: 'easeOutQuart'
             });
 
-        });</script>
+        });
+
+    </script>
     <!--// end-smoth-scrolling -->
     <!-- //js -->
 
