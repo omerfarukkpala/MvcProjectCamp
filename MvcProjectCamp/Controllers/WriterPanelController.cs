@@ -25,7 +25,15 @@ namespace MvcProjectCamp.Controllers
         WriterValidator writerValidator = new WriterValidator();
         Context c = new Context();
 
-        
+        [HttpGet]
+        public ActionResult WriterProfile(int id = 0)
+        {
+            string p = (string)Session["WriterMail"];
+            id = c.Writers.Where(x => x.WriterMail == p).Select(y => y.WriterID).FirstOrDefault();
+            var writervalue = wm.GetByID(id);
+            return View(writervalue);
+        }
+
         public ActionResult WriterProfile(Writer p)
         {
             ValidationResult results = writerValidator.Validate(p);
