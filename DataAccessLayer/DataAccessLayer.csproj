@@ -74,9 +74,9 @@
     <Compile Include="EntityFramework\EfMessageDAL.cs" />
     <Compile Include="EntityFramework\EfSkillDAL.cs" />
     <Compile Include="EntityFramework\EfWriterDAL.cs" />
-    <Compile Include="Migrations\202401121535403_mig1.cs" />
-    <Compile Include="Migrations\202401121535403_mig1.designer.cs">
-      <DependentUpon>202401121535403_mig1.cs</DependentUpon>
+    <Compile Include="Migrations\202402221909194_mignew.cs" />
+    <Compile Include="Migrations\202402221909194_mignew.designer.cs">
+      <DependentUpon>202402221909194_mignew.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -92,11 +92,10 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202401121535403_mig1.resx">
-      <DependentUpon>202401121535403_mig1.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202402221909194_mignew.resx">
+      <DependentUpon>202402221909194_mignew.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
