@@ -1,8 +1,79 @@
-﻿
+﻿@using EntityLayer.Concrete
+@model Statistics
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
-<h2>Index</h2>
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="~/web2/css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <script src="~/web2/js/jquery.min.js"></script>
+    <link rel="stylesheet" href="~/web2/css/font-awesome.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Metro Panel Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <script src="js/zingchart.min.js"></script>
+    <script src="js/zingchart.jquery.js"></script>
+    <script src="js/jquery.easydropdown.js"></script>
+    <script src="js/jquery.nicescroll.js"></script>
+    <link href="css/jqvmap.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="~/web2/js/easyResponsiveTabs.js" type="text/javascript"></script>
+    <link href="~/web2/css/nav.css" rel="stylesheet" type="text/css" media="all" />
+    <script src="~/web2/js/main.js"></script> <!-- Resource jQuery -->
+    <script src="~/web2/js/Chart1.js"></script>
+</head>
+<body>
+    <h1>Mvc Proje Kampı 40 Güncelleme İşlemi & Sertifika Görev 2/4</h1>
+    <div class="total-content">
+        <div class="list_of_members">
+            <div class="sales" style="background-color:#1abc9c">
+                <div class="icon-text">
+                    <h2>Toplam Kategori Sayısı</h2>
+                    <h3>@Model.TotalCategoryCount</h3>
+                </div>
+                <div class="clearfix"></div>
+            </div>
 
+            <div class="new-users" style="background-color:#2ecc71">
+                <div class="icon-text">
+                    <h2>Başlık tablosunda "yazılım" kategorisine ait başlık sayısı</h2>
+                    <h3>@Model.TotalSoftwareCategoryCount</h3>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+
+            <div class="orders" style="background-color:#3498db">
+                <div class="icon-text">
+                    <h2>Yazar adında 'a' harfi geçen yazar sayısı</h2>
+                    <h3>@Model.TotalWriterLetterACount</h3>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+
+            <div class="visitors" style="background-color:#9b59b6">
+                <div class="icon-text">
+                    <h2>En fazla başlığa sahip kategori adı</h2>
+                    <h3>@Model.MaxHeadingCategoryName</h3>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="clearfix"></div>
+
+            <div class="new-users" style="background-color:#e49a9a">
+                <div class="icon-text">
+                    <h2>Kategori tablosunda durumu true olan kategoriler ile false olan kategoriler arasındaki sayısal fark</h2>
+                    <h3>@Model.DifferenceCategoryStatus</h3>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+
+</body>
+</html>
