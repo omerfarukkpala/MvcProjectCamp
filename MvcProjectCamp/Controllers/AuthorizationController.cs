@@ -17,7 +17,8 @@ namespace MvcProjectCamp.Controllers
         // GET: Authorization
         public ActionResult Index()
         {
-            return View();
+            var adminvalues = adminmanager.GetList();
+            return View(adminvalues);
         }
         [HttpGet]
         public ActionResult AddAdmin()
