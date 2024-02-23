@@ -63,6 +63,8 @@
     <Compile Include="Concrete\Statistics.cs" />
     <Compile Include="Concrete\Writer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StaticHash.cs" />
+    <Compile Include="StaticModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
