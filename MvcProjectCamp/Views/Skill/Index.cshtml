@@ -1,0 +1,63 @@
+﻿@model EntityLayer.Concrete.Skill
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Yetenek Kartım</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Skills Profile Widget template Responsive, Login form web template,Flat Pricing tables,Flat Drop downs  Sign up Web Templates, Flat Web Templates, Login sign up Responsive web template, SmartPhone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+    <link href="~/AdminLTE-3.0.4/Skills_Theme/web/css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href='//fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+    <script src="~/AdminLTE-3.0.4/Skills_Theme/web/js/jquery-1.11.1.min.js"></script>
+    <script src="~/AdminLTE-3.0.4/Skills_Theme/web/js/easyResponsiveTabs.js" type="text/javascript"></script>
+    <script type="text/javascript">$(document).ready(function () {
+		$('#horizontalTab').easyResponsiveTabs({
+			type: 'default',
+			width: 'auto',
+			fit: true
+		});
+	});</script>
+</head>
+<body>
+    <div class="main">
+        <h1>Yetenek Kartım</h1>
+        <div class="main-info w3l">
+            <div class="main-row">
+                <div class="profile-grid logo wthree">
+                    <img style="height:200px;width:200px" src="@Html.DisplayFor(x=>x.ImageUrl)" />
+                    <h2>@Html.DisplayFor(x => x.Name) @Html.DisplayFor(x => x.Surname)</h2>
+                    <p>@Html.DisplayFor(x => x.TitleInfo)</p>
+
+                </div>
+                <h3 class="title">Yetenekler</h3>
+                <div class="col-md-6 skills-right bar_group">
+
+                    <div class='bar_group__bar thin' label='@Html.DisplayFor(x=>x.Ability1)&nbsp;&nbsp; @Html.DisplayFor(x=>x.AbilityRate1)' value='170'></div>
+                    <div class='bar_group__bar thin' label='@Html.DisplayFor(x=>x.Ability2)&nbsp;&nbsp; @Html.DisplayFor(x=>x.AbilityRate2)' value='170'></div>
+                    <div class='bar_group__bar thin' label='@Html.DisplayFor(x=>x.Ability3)&nbsp;&nbsp; @Html.DisplayFor(x=>x.AbilityRate3)' value='180'></div>
+                    <div class='bar_group__bar thin' label='@Html.DisplayFor(x=>x.Ability4)&nbsp;&nbsp; @Html.DisplayFor(x=>x.AbilityRate4)' value='165'></div>
+                    <div class='bar_group__bar thin' label='@Html.DisplayFor(x=>x.Ability5)&nbsp;&nbsp; @Html.DisplayFor(x=>x.AbilityRate5)' value='155'></div>
+                    <div class='bar_group__bar thin' label='@Html.DisplayFor(x=>x.Ability6)&nbsp;&nbsp; @Html.DisplayFor(x=>x.AbilityRate6)' value='175'></div>
+                    <div class='bar_group__bar thin' label='@Html.DisplayFor(x=>x.Ability7)&nbsp;&nbsp; @Html.DisplayFor(x=>x.AbilityRate7)' value='180'></div>
+                    <div class='bar_group__bar thin' label='@Html.DisplayFor(x=>x.Ability8)&nbsp;&nbsp; @Html.DisplayFor(x=>x.AbilityRate8)' value='155'></div>
+                </div>
+                <script src="~/AdminLTE-3.0.4/Skills_Theme/web/js/bars.js"></script>
+                <div class="social-icons agileits">
+                    <ul>
+                        @*<li><a href="@Html.DisplayFor(x=>x.GitHubUrl)"></a></li>*@
+                        <li><a href="@Html.DisplayFor(x=>x.LinkedinUrl)" class="be" target="_blank"></a></li>
+                    </ul>
+                </div>
+                <div class="clear"> </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
