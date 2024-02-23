@@ -14,6 +14,7 @@ namespace MvcProjectCamp.Controllers
     public class AdminCategoryController : Controller
     {
         CategoryManagerBL cm = new CategoryManagerBL(new EfCategoryDAL());
+        [Authorize]
 
         public ActionResult Index()
         {
