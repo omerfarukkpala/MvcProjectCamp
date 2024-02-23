@@ -4,5 +4,25 @@
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
-<h2>EditAdmin</h2>
+
+<br />
+<h2>Admin Güncelleme Sayfası</h2>
+@using (Html.BeginForm("EditAdmin", "Authorization", FormMethod.Post))
+{
+    <div class="form-group">
+        @Html.HiddenFor(x => x.AdminID, new { @class = "form-control" })
+        @Html.Label("Admin Kullanıcı Adı")
+        @Html.TextBoxFor(x => x.AdminUserName, new { @class = "form-control" })
+        <br />
+        @Html.Label("Şifre")
+        @Html.TextBoxFor(x => x.AdminPassword, new { @class = "form-control" })
+        <br />
+        @Html.Label("Rol")
+        @Html.DropDownListFor(x => x.AdminRole, (List<SelectListItem>)ViewBag.vlc, new { @class = "form-control" })
+        <br />
+        <button class="btn btn-success">Güncelle</button>
+    </div>
+}
+
+
 
