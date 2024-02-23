@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BusinessLayer.Concrete;
+using DataAccessLayer.EntityFramework;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,6 +10,8 @@ namespace MvcProjectCamp.Controllers
 {
     public class AuthorizationController : Controller
     {
+        AdminManagerBL adminmanager = new AdminManagerBL(new EfAdminDAL());
+
         // GET: Authorization
         public ActionResult Index()
         {
