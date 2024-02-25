@@ -1,6 +1,6 @@
 # Asp.Net Mvc ile Teknoji Sözlük Uygulaması Geliştirme
 
-Bu proje, Asp.Net Mvc5 kullanarak bir Ekşi Sözlük benzeri uygulama geliştirmeyi ele alır. Projede kullanılan teknolojiler arasında Asp.Net Mvc5, SQL Server, Entity Framework, Bootstrap, Fluent Validation ve N-Tier Architecture bulunmaktadır.
+Bu proje, Mvc dünyasına kurumsal mimari ile code first yaklaşımını kullanarak oluşturulan bir projedir.Asp.Net Mvc kullanarak bir  Sözlük benzeri uygulama geliştirmeyi ele alır. Projede kullanılan teknolojiler arasında Asp.Net Mvc, SQL Server, Entity Framework, Bootstrap, Fluent Validation ve N-Tier Architecture bulunmaktadır.
 
 ## Proje İçeriği:
 
