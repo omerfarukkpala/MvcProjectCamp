@@ -1,6 +1,6 @@
 # Asp.Net Mvc ile Teknoji Sözlük Uygulaması Geliştirme
 
-Bu proje, Mvc dünyasına kurumsal mimari ile code first yaklaşımını kullanarak oluşturulan bir projedir.Asp.Net Mvc kullanarak bir  Sözlük benzeri uygulama geliştirmeyi ele alır. Projede kullanılan teknolojiler arasında Asp.Net Mvc, SQL Server, Entity Framework, Bootstrap, Fluent Validation ve N-Tier Architecture bulunmaktadır.
+Bu proje, Mvc dünyasına kurumsal mimari ile code first yaklaşımını kullanarak oluşturulan bir projedir.Asp.Net Mvc kullanarak bir  Sözlük benzeri uygulama geliştirmeyi ele alır. Projede kullanılan teknolojiler arasında Asp.Net Mvc, SQL Server, Entity Framework, Bootstrap, Fluent Validation ve N-Tier Architecture(Katmanlı Mimarisi) bulunmaktadır.
 
 ## Proje İçeriği:
 
@@ -20,7 +20,7 @@ Kullanıcı girişlerinin doğrulanması için Fluent Validation kütüphanesini
 
 Veritabanı entegrasyonunu kolaylaştırmak için Entity Framework'ü CodeFirst yaklaşımıyla kullanıyoruz. Bu sayede C# sınıflarından veritabanı tablolarını otomatik olarak oluşturarak veritabanı işlemlerini yönetiyoruz.
 
-### 5. N-Tier Architecture:
+### 5. N-Tier Architecture(Katmanlı Mimari):
 
 Projeyi katmanlara ayırarak N-Tier Architecture prensiplerine uygun olarak geliştiriyoruz. Bu sayede projeyi modüler hale getiriyor, bakımını kolaylaştırıyor ve genişletilebilir bir yapı oluşturuyoruz.
 
