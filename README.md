@@ -1,6 +1,5 @@
 # MvcProjectCamp     
-# Proje içeriğinde 4 kısım bulunmaktadrır
-# MvcProjectCamp
+
 
 ## Proje İçeriği
 
