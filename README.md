@@ -5,7 +5,7 @@ Bu proje, Mvc dünyasına kurumsal mimari ile code first yaklaşımını kullana
 ## Proje İçeriği:
 
 ### 1. Model-View-Controller (MVC) Mimarisi:
-
+ 
 Projede MVC mimarisini kullanarak kodu modüler hale getiriyoruz. Model, View ve Controller bileşenlerini ayrı tutarak geliştirme sürecini daha organize hale getiriyoruz.
 
 ### 2. Bootstrap ile Kullanıcı Arayüzü Tasarımı:
