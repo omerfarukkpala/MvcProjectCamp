@@ -88,6 +88,7 @@ Vitrin bölümü, projenin önemli içeriklerini veya duyurularını sergileyen 
 - **Kullanıcı Geri Bildirimleri:** Kullanıcıların projeye ve içeriklere ilişkin geri bildirimlerini gösteren bir alan.
 
 Bu bölümler, projenin farklı kullanıcı gruplarına yönelik özel arayüzler sunmasını sağlar ve uygulamanın işlevselliğini artırır.
+Her bölüm, belirli bir kullanıcı veya rol tarafından erişilebilir ve ilgili işlevselliği sunar. Admin ve Yazar panelleri, ilgili kullanıcıların gereksinimlerine uygun olarak tasarlanmıştır. Bu bölümler, projenin yönetimi, içerik oluşturma/düzenleme ve kullanıcı etkileşimi gibi temel özelliklerini sağlar.
 
 ### Veritabanı ![image](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/654c10fa-e403-4c34-b208-3e99dec79287)
 
