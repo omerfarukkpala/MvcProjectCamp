@@ -55,17 +55,26 @@ Admin paneli, projenin yönetimini sağlayan bir arayüzdür. Admin kullanıcıl
 - **Mesaj Yönetimi:** Kullanıcılar arasındaki mesajlaşma sisteminin yönetimi, mesajları görüntüleme ve yanıtlama yeteneği.
   
 - **Site İstatistikleri:** Site ile ilgili istatistiklerin görüntülenmesi, ziyaretçi sayıları, en popüler içerikler gibi bilgilerin takibi.
+- **Yetkilendirmeler:** Farklı kullanıcı rollerine göre erişim yetkilerini yönetme imkanı sağlar.
+- **Galeri Yönetimi:** Projenin içeriğini zenginleştirmek için kullanılan görsellerin yönetimini sağlar.
+- **Hakkımızda Sayfası Yönetimi:** Site hakkında bilgilerin bulunduğu "Hakkımızda" sayfasının içeriğini yönetir.
+- **İletişim Mesajları Yönetimi:** Site ziyaretçileri tarafından gönderilen iletişim mesajlarının yönetimini sağlar.
+- **Kategori Yönetimi:** İçeriklerin kategorize edilmesini sağlayan kategorilerin yönetimini sağlar.
+- **Yazar Yönetimi:** Proje yazarlarının yönetimini sağlar.
 
 ### 2. Yazar Paneli 📝
 
 Yazar paneli, kullanıcıların içerik eklemelerini ve düzenlemelerini sağlayan bir arayüzdür. Genellikle şu özellikleri içerir:
 
 - **Yazı Oluşturma:** Yeni içeriklerin (makaleler, blog yazıları, vb.) oluşturulması.
-  
 - **Yazı Düzenleme:** Var olan içeriklerin düzenlenmesi ve güncellenmesi.
-  
 - **Yorum Yönetimi:** Kullanıcıların içeriklere yaptığı yorumların yönetimi, onaylama veya reddetme gibi işlemler.
-
+- **Profilim:** Yazarın kişisel bilgilerini ve şifresini değiştirebilmektedir.
+- **Başlıklarım:** Yazar kendi başlıklarını, başlıklarına yapılmış yorumları görebilir ve başlık işlemleri gerçekleştirebilir.
+- **Tüm Başlıklar:** Sözlükteki aktif başlıkları görebilir, başlıklara yapılmış yorumları görebilir ve yorumlarını ekleyebilir.
+- **Yazılarım:** Yazarın kendi yazılarını görebilir.
+- **Mesajlar:** Kullanıcılar arasında mesajlaşmayı sağlar.
+- 
 ### 3. Sözlük 📖
 
 Sözlük bölümü, projenin ana içeriğini oluşturan kısım olabilir. Genellikle şu özellikleri içerir:
