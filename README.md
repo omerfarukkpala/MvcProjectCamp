@@ -2,6 +2,10 @@
     
 Bu proje, Mvc dünyasına kurumsal mimari ile code first yaklaşımını kullanarak oluşturulan bir projedir.Asp.Net Mvc kullanarak bir  Sözlük benzeri uygulama geliştirmeyi ele alır. Projede kullanılan teknolojiler arasında Asp.Net Mvc, SQL Server, Entity Framework, Bootstrap, Fluent Validation ve N-Tier Architecture(Katmanlı Mimarisi) bulunmaktadır.
 
+
+https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/01ae95f9-eac5-47bb-9eac-8226c8f464a2
+
+
 ## Proje Detayları : 
 
 ### 1. Model-View-Controller (MVC) Mimarisi:
