@@ -333,7 +333,6 @@
     <Content Include="AdminLTE-3.0.4\docs\_layouts\home.html" />
     <Content Include="AdminLTE-3.0.4\docs\_layouts\page.html" />
     <Content Include="AdminLTE-3.0.4\docs\_layouts\post.html" />
-    <Content Include="AdminLTE-3.0.4\images\anıtkabir.jpg" />
     <Content Include="AdminLTE-3.0.4\images\chichen_itza.jpg" />
     <Content Include="AdminLTE-3.0.4\images\colosseum.jpg" />
     <Content Include="AdminLTE-3.0.4\images\tacmahal.jpg" />
