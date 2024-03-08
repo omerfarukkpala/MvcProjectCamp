@@ -2057,11 +2057,11 @@
     <Content Include="AdminLTE-3.0.4\web\css\aos.css" />
     <Content Include="AdminLTE-3.0.4\web\css\bootstrap.css" />
     <Content Include="AdminLTE-3.0.4\web\css\fontawesome-all.css" />
+    <Content Include="AdminLTE-3.0.4\web\css\newstyle.css" />
     <Content Include="AdminLTE-3.0.4\web\css\roadmap.css" />
     <Content Include="AdminLTE-3.0.4\web\css\simpleLightbox.css" />
     <Content Include="AdminLTE-3.0.4\web\css\snow.css" />
     <Content Include="AdminLTE-3.0.4\web\css\style.css" />
-    <Content Include="AdminLTE-3.0.4\web\images\banner.jpg" />
     <Content Include="AdminLTE-3.0.4\web\images\chichen_itza.jpg" />
     <Content Include="AdminLTE-3.0.4\web\images\cinseddi.jpg" />
     <Content Include="AdminLTE-3.0.4\web\images\close.png" />
