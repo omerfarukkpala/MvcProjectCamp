@@ -129,6 +129,26 @@ AdminCategory/EditCategory/1
 ContentGetAllConten
 ![ContentGetAllContent](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/752c2fdb-d09a-48a2-930f-8759cbd58ece)
 
+## Admin Writer Panel ![adminwriter](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/b23d1b3e-cca8-4b65-84a1-c73401ffdb9d)
+
+## Admin Heading Report![adminheadingreport](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/c3ba562a-460f-4ac7-8b25-ee352137ab79)
+
+## Admin Contact ![contact](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/df2b7fdd-226c-4cd3-9aa5-3809832e5120)
+
+## Admin Authorization ![Authorizationadmin](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/9f57a5ac-600f-4278-878f-5ff9f1936c09)
+
+## Admin Authorization Edit ![sifreee](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/6845b8f3-35a9-4a53-a122-b35457de0042)
+
+## Admin Galley ![AdminGalley](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/27f42a5b-bad7-465c-a007-a84695be81ac)
+
+## Admin SweetAlert ![image](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/625b37e8-d5da-4ae4-9ccc-b9b8b86d12b5)
+
+## Admin Error Page ![eerre](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/e341fce5-1f3b-4538-9e14-2775a06a4393)
+
+## Admin Skills Panel ![adminskills](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/ae7e989e-e497-46c3-a9f3-2576327e2cd4)
+
+
+
 
 ## Writer Login 
 https://localhost:44361/Login/WriterLogin
@@ -144,7 +164,7 @@ https://localhost:44361/Login/WriterLogin
 
 ## Writer MyContent ![WriterPanelContentMyContent](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/4f8abe64-723f-4b5b-b232-72720e6ead15)
 
-   
+
  
  
  
