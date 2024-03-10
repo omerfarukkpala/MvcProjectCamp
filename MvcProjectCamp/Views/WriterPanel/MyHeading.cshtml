@@ -58,23 +58,23 @@
                     <tbody>
                         @foreach (var item in Model)
                         {
-                            if (item.Category.CategoryName == "Sinema")
+                            if (item.Category.CategoryName == "Programlama Dilleri")
                             {
                                 color = "badge badge-warning";
                             }
-                            if (item.Category.CategoryName == "Bilişim")
+                            if (item.Category.CategoryName == "Robotik Kodlama")
                             {
                                 color = "badge badge-success";
                             }
-                            if (item.Category.CategoryName == "Dizi")
+                            if (item.Category.CategoryName == "Veri Bilimi ")
                             {
                                 color = "badge badge-info";
                             }
-                            if (item.Category.CategoryName == "Film")
+                            if (item.Category.CategoryName == "Oyun Ve Programlama")
                             {
                                 color = "badge badge-secondary";
                             }
-                            if (item.Category.CategoryName == "Satranç")
+                            if (item.Category.CategoryName == "Veri Tabanı ve Tasarımı Programlama")
                             {
                                 color = "badge badge-primary";
                             }
@@ -95,7 +95,7 @@
                                 <td>
                                     <ul class="list-inline">
                                         <li class="list-inline-item">
-                                            <img alt="Avatar" class="table-avatar" src="@item.Writer.WriterImage">
+                                            <img class="table-avatar" src="@item.Writer.WriterImage">
                                         </li>
                                     </ul>
                                 </td>
