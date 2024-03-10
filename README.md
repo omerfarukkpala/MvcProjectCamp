@@ -109,12 +109,16 @@ https://localhost:44361/Login/Index
 
 ## Admin Category ![admincategory](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/ecb00683-ae30-4ec6-9e27-f4f236e2c857)
 ## Admin Category Add ![image](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/71552bdc-5ba2-4cbb-ace0-9993fb903638)
-## Admin Heading ![HeadingIndex](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/bfc92e08-b681-4b46-9e56-367267a11f4a)
+## Admin Heading 
 /Heading/Index/
+![HeadingIndex](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/bfc92e08-b681-4b46-9e56-367267a11f4a)
 
-## Admin Category Edit ![screencapture-localhost-44361-AdminCategory-EditCategory-1-2024-03-10-14_12_11](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/a5bb9f7c-a2d4-4b2b-a6e7-4f6c97ac1ad6)
 
+## Admin Category Edit 
 AdminCategory/EditCategory/1
+![screencapture-localhost-44361-AdminCategory-EditCategory-1-2024-03-10-14_12_11](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/a5bb9f7c-a2d4-4b2b-a6e7-4f6c97ac1ad6)
+
+
 
 ## Writer Login 
 https://localhost:44361/Login/WriterLogin
