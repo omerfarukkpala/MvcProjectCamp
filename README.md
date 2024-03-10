@@ -101,6 +101,8 @@ Her bölüm, belirli bir kullanıcı veya rol tarafından erişilebilir ve ilgil
 ### Veritabanı ![image](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/654c10fa-e403-4c34-b208-3e99dec79287)
 
 ## Home ![direkanasayfa](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/c6591666-76c8-4ad9-9599-1347451c8da0)
+## Default Headings ![default heading](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/b7d44a9f-8c0a-4745-9621-8c5753c66de3)
+## Default Heading 2 ![default](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/d539444b-0c79-4503-a052-49c09320bb8e)
 
 ## Writer Login 
 https://localhost:44361/Login/WriterLogin
