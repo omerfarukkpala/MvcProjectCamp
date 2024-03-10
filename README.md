@@ -100,6 +100,49 @@ Her bölüm, belirli bir kullanıcı veya rol tarafından erişilebilir ve ilgil
 
 ### Veritabanı ![image](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/654c10fa-e403-4c34-b208-3e99dec79287)
 
+## Home ![direkanasayfa](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/c6591666-76c8-4ad9-9599-1347451c8da0)
+## Default Headings ![default heading](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/b7d44a9f-8c0a-4745-9621-8c5753c66de3)
+## Default Heading 2 ![default](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/d539444b-0c79-4503-a052-49c09320bb8e)
+
+## Admin Login  ![adminlogin](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/17532593-b726-4ccc-8bf8-b0096221d074)
+https://localhost:44361/Login/Index
+
+## Admin Category ![admincategory](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/ecb00683-ae30-4ec6-9e27-f4f236e2c857)
+## Admin Category Add ![image](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/71552bdc-5ba2-4cbb-ace0-9993fb903638)
+## Admin Heading 
+/Heading/Index/
+![HeadingIndex](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/bfc92e08-b681-4b46-9e56-367267a11f4a)
+
+## Admin New Heading 
+![image](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/851a7527-27e3-432a-8dbe-5e7c4caf5730)
+
+
+## Admin Heading Edit
+https://localhost:44361/Heading/EditHeading/1
+![adminheadingg](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/ff0219ab-108a-4cba-af78-96047ec0b89c)
+
+## Admin Category Edit 
+AdminCategory/EditCategory/1
+![screencapture-localhost-44361-AdminCategory-EditCategory-1-2024-03-10-14_12_11](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/a5bb9f7c-a2d4-4b2b-a6e7-4f6c97ac1ad6)
+
+## Admin Search 
+ContentGetAllConten
+![ContentGetAllContent](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/752c2fdb-d09a-48a2-930f-8759cbd58ece)
+
+
+## Writer Login 
+https://localhost:44361/Login/WriterLogin
+![writerlogin](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/1504170a-a006-49b8-9901-c1fa5ef82920)
+
+## Writer Profile ![writerprofile](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/b4a9ffe7-9bfc-4efb-9aae-8af41c565866)
+
+## Writer Heading ![yaazarheading](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/e9691a99-23c6-4b51-997c-704f5812f427)
+
+## Writer All Headings ![allheadings](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/fe4eb07e-c3c5-4dd5-8593-6f49f2078aad)
+
+## Writer Panel Message ![WriterPanelMessage](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/2be897aa-db05-47a4-9532-d6ed09f17a63)
+
+## Writer MyContent ![WriterPanelContentMyContent](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/4f8abe64-723f-4b5b-b232-72720e6ead15)
 
    
  
