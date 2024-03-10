@@ -106,7 +106,15 @@ Her bölüm, belirli bir kullanıcı veya rol tarafından erişilebilir ve ilgil
 https://localhost:44361/Login/WriterLogin
 ![writerlogin](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/1504170a-a006-49b8-9901-c1fa5ef82920)
 
+## Writer Profile ![writerprofile](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/b4a9ffe7-9bfc-4efb-9aae-8af41c565866)
 
+## Writer Heading ![yaazarheading](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/e9691a99-23c6-4b51-997c-704f5812f427)
+
+## Writer All Headings ![allheadings](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/fe4eb07e-c3c5-4dd5-8593-6f49f2078aad)
+
+## Writer Panel Message ![WriterPanelMessage](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/2be897aa-db05-47a4-9532-d6ed09f17a63)
+
+## Writer MyContent ![WriterPanelContentMyContent](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/4f8abe64-723f-4b5b-b232-72720e6ead15)
 
    
  
