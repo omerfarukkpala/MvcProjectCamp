@@ -104,6 +104,18 @@ Her bölüm, belirli bir kullanıcı veya rol tarafından erişilebilir ve ilgil
 ## Default Headings ![default heading](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/b7d44a9f-8c0a-4745-9621-8c5753c66de3)
 ## Default Heading 2 ![default](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/d539444b-0c79-4503-a052-49c09320bb8e)
 
+## Admin Login  ![adminlogin](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/17532593-b726-4ccc-8bf8-b0096221d074)
+https://localhost:44361/Login/Index
+
+## Admin Category ![admincategory](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/ecb00683-ae30-4ec6-9e27-f4f236e2c857)
+## Admin Category Add ![image](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/71552bdc-5ba2-4cbb-ace0-9993fb903638)
+## Admin Heading ![HeadingIndex](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/bfc92e08-b681-4b46-9e56-367267a11f4a)
+/Heading/Index/
+
+## Admin Category Edit ![screencapture-localhost-44361-AdminCategory-EditCategory-1-2024-03-10-14_12_11](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/a5bb9f7c-a2d4-4b2b-a6e7-4f6c97ac1ad6)
+
+AdminCategory/EditCategory/1
+
 ## Writer Login 
 https://localhost:44361/Login/WriterLogin
 ![writerlogin](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/1504170a-a006-49b8-9901-c1fa5ef82920)
