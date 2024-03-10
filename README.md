@@ -100,6 +100,9 @@ Her bölüm, belirli bir kullanıcı veya rol tarafından erişilebilir ve ilgil
 
 ### Veritabanı ![image](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/654c10fa-e403-4c34-b208-3e99dec79287)
 
+## Home ![direkanasayfa](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/c6591666-76c8-4ad9-9599-1347451c8da0)
+
+
 
    
  
