@@ -102,6 +102,10 @@ Her bölüm, belirli bir kullanıcı veya rol tarafından erişilebilir ve ilgil
 
 ## Home ![direkanasayfa](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/c6591666-76c8-4ad9-9599-1347451c8da0)
 
+## Writer Login 
+https://localhost:44361/Login/WriterLogin
+![writerlogin](https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/1504170a-a006-49b8-9901-c1fa5ef82920)
+
 
 
    
