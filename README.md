@@ -85,7 +85,7 @@ Yazar paneli, kullanıcıların içerik eklemelerini ve düzenlemelerini sağlay
 
 ### 3. Sözlük 📖
 
-Sözlük bölümü, projenin ana içeriğini oluşturan kısım olabilir. Genellikle şu özellikleri içerir:
+Sözlük bölümü, projenin ana içeriğini oluşturan kısımdır. Genellikle şu özellikleri içerir:
 
 - **Başlık Oluşturma:** Kullanıcıların yeni başlıklar oluşturmasına izin veren bir sistem.
   
