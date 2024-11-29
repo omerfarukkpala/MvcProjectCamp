@@ -9,7 +9,7 @@ https://github.com/omerfarukkpala/MvcProjectCamp/assets/101570820/ac124791-030b-
                    
                
 ## Proje Detayları :      
-  
+   
 ### 1. Model-View-Controller (MVC) Mimarisi:
   
 Projede MVC mimarisini kullanarak kodu modüler hale getiriyoruz. Model, View ve Controller bileşenlerini ayrı tutarak geliştirme sürecini daha organize hale getiriyoruz.
